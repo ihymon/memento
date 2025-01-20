@@ -1,0 +1,92 @@
+@media screen and (max-width: 900px) {
+    .header {
+        margin-top: 20px;
+    }
+
+    .header div {
+        display: none;
+    }
+
+    .wrap .homepage .header i {
+        display: none;
+    }
+
+    .wrap .homepage .header .menu {
+        display: flex;
+    }
+
+    .centerphoto .info p {
+        font-size: 12px;
+    }
+
+    .wrap .homepage .slidecontainer .leftPhoto {
+        display: none;
+    }
+
+    .wrap .homepage .slidecontainer .rightPhoto {
+        display: none;
+    }
+
+    .wrap .homepage .slidecontainer .centerphoto {
+        width: 80%;
+        position: relative;
+        left: 7%;
+    }
+
+    .wrap .gallery {
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .wrap .gallery .galleryContainer1 {
+        width: 80%;
+        min-height: 450px;
+    }
+
+    .wrap .gallery .galleryContainer1 .galleryPost .pic {
+        margin-bottom: 70px;
+    }
+
+    .wrap .gallery .galleryContainer2 {
+        min-height: 400px;
+        width: 80%;
+        margin-top: 250px;
+    }
+
+    .wrap .gallery .galleryContainer3 {
+        width: 80%;
+        min-height: 500px;
+    }
+
+    .wrap .gallery .galleryContainer2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
+
+    .wrap .gallery .galleryContainer3 .galleryPost {
+        padding: 30px 0;
+    }
+
+    .wrap .culture{
+        margin-top: 200px;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .wrap .culture .cultureContainer .coltureItem {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .wrap .beautyTips{
+        margin-top: 400p;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .wrap .beautyTips .beautyContainer .beautyTipsItem{
+        width: 80%;
+    }
+
+}
